@@ -1,0 +1,22 @@
+
+Installed Packages (NuGet)
+--------------------------
+
+1. Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+2. Microsoft.EntityFrameworkCore.SqlServer
+3. Microsoft.EntityFrameworkCore.Tools
+4. Microsoft.Extensions.Logging.Debug
+5. Microsoft.VisualStudio.Web.CodeGeneration.Design
+6. Newtonsoft.Json
+
+Instructions to compile and run the application
+-----------------------------------------------
+
+- Project data access is Code First
+1. Open Package Console and point project to (eDNADAL) and run below commands to create the database
+  - add-migration
+  - update-database
+
+- Setup eDNAWeb to be a startup project
+
+
